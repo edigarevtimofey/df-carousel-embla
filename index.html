@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="base.css">
+  <title>Title</title>
+</head>
+<body class="theme-dark">
+<section class="embla">
+    <div class="embla__container">
+        <!-- Slide1 -->
+      <div class="embla__slide spacer"></div>
+      <div class="embla__slide format1">
+        <a href="#" target="_blank" class="card-wrapper" style="background-color: transparent;" >
+          <div class="panel-bottom">
+            <div>
+              <div class="slide-headline">Behind the Scenes</div>
+              <div class="slide-caption">The Library</div>
+            </div>
+          </div>
+          <div class="panel-background">
+            <img src="https://cdn.prod.website-files.com/664cb2f1b78f210eec853da1/66622243207076bdac7b1cff_1520-d.webp"  class="slide-image" alt="">
+          </div>
+        </a>
+      </div>
+
+        <!-- Slide2 -->
+      <div class="embla__slide format2">
+        <a href="#" target="_blank" class="card-wrapper" style="background-color: #4A4A71;" >
+          <div class="panel-content">
+            <div style="height: 250px; width: 100%;">
+              <img src="https://cdn.prod.website-files.com/664cb2f1b78f210eec853da1/66622243207076bdac7b1cff_1520-d.webp"  class="slide-image" alt="">
+            </div>
+          </div>
+          <div class="panel-bottom">
+            <div>
+              <div class="slide-headline">Behind the Scenes</div>
+              <div class="slide-caption">The Library</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+        <!-- Slide3 -->
+      <div class="embla__slide format3">
+        <a href="#" target="_blank" class="card-wrapper" style="background-color: #382534;" >
+          <div class="panel-content">
+            <div style="height: 300px; width: 100%;" class="slide-video">
+              <video src="https://player.vimeo.com/progressive_redirect/playback/1020196648/rendition/720p/file.mp4?loc=external&amp;signature=8d16fc1919aebcf54f1174e98a8db650efda41108694b09d1a73d47a3169c3a0" class="slide-video-embed background-video" width="100%" height="100%" autoplay="0" playsinline="0" loop="" data-object-fit="cover"><source type="video/mp4"></video>
+            </div>
+          </div>
+          <div class="panel-bottom">
+            <div>
+              <div class="slide-headline">Behind the Scenes</div>
+              <div class="slide-caption">The Library</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+        <!-- Slide4 -->
+      <div class="embla__slide format2">
+        <a href="#" target="_blank" class="card-wrapper" style="background-color: #4A4A71;" >
+          <div class="panel-content">
+            <div style="height: 250px; width: 100%;">
+              <img src="https://cdn.prod.website-files.com/664cb2f1b78f210eec853da1/66622243207076bdac7b1cff_1520-d.webp"  class="slide-image" alt="">
+            </div>
+          </div>
+          <div class="panel-bottom">
+            <div>
+              <div class="slide-headline">Behind the Scenes</div>
+              <div class="slide-caption">The Library</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+        <!-- Slide5 -->
+      <div class="embla__slide format4">
+        <a href="#" target="_blank" class="card-wrapper" style="background-color: transparent;" >
+          <div class="panel-bottom">
+            <div>
+              <div class="slide-headline">Behind the Scenes</div>
+              <div class="slide-caption">The Library</div>
+            </div>
+          </div>
+          <div class="panel-background">
+            <img src="https://cdn.prod.website-files.com/654a475fb81e77be0ade5fb4/66aab630855cd60b2eee0bfa_Studio-02.avif"  class="slide-image" alt="">
+          </div>
+        </a>
+      </div>
+
+        <!-- Slide6 -->
+      <div class="embla__slide format4">
+        <a href="#" target="_blank" class="card-wrapper text" style="background-color: grey;" >
+          <div class="panel-top">
+            <div class="text-wrapper">
+                <div class="slide-text">
+                  It’s funny what can happen when you drop 100 beers in the middle of a room and stand back.
+                </div>
+            </div>
+          </div>
+          <div class="panel-bottom">
+            <div>
+              <div class="slide-headline">Behind the Scenes</div>
+              <div class="slide-caption">The Library</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+        <!-- Slide7 -->
+      <div class="embla__slide format3">
+        <a href="#" target="_blank" class="card-wrapper" style="background-color: #382534;" >
+          <div class="panel-content">
+            <div style="height: 300px; width: 100%;" class="slide-video">
+              <video src="https://player.vimeo.com/progressive_redirect/playback/1020196648/rendition/720p/file.mp4?loc=external&amp;signature=8d16fc1919aebcf54f1174e98a8db650efda41108694b09d1a73d47a3169c3a0" class="slide-video-embed background-video" width="100%" height="100%" autoplay="0" playsinline="0" loop="" data-object-fit="cover"><source type="video/mp4"></video>
+            </div>
+          </div>
+          <div class="panel-bottom">
+            <div>
+              <div class="slide-headline">Behind the Scenes</div>
+              <div class="slide-caption">The Library</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+  </div>
+</section>
+
+
+  <script type="text/javascript">
+    const emblaNode = document.querySelector('.embla')
+    const options = { dragFree: true, }
+    const emblaApi = EmblaCarousel(emblaNode, options)
+
+    console.log(emblaApi.slideNodes()) // Access API
+  </script>
+
+</body>
+</html>
