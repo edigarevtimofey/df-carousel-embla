@@ -158,6 +158,8 @@ for (let i = 0; i < slides.length; i += 1) {
             media[i].src = slides[i].path;
             media[i].className = 'slide-video-embed background-video';
             media[i].autoplay = true;
+            media[i].muted = true;
+            media[i].type = 'video/mp4';
             media[i].playsInline = true;
             media[i].loop = true;
             media[i].style.objectFit = 'cover';
