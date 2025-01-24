@@ -118,8 +118,7 @@ img{
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    height: auto;
-    min-height: 100%;
+
     padding: 40px;
     font-size: 22px;
     text-decoration: none;
